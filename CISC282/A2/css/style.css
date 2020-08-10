@@ -1,0 +1,141 @@
+html, body, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.content {
+	padding-left:2em;
+	padding-right:2em;
+}
+
+body {
+	font-family:"Palatino", "Book Antiqua", "Georgia", serif;
+	font-size:1em;
+	line-height:125%;
+}
+
+header {
+	color:#fff;
+	background-color:#002f5e;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#wordmark {
+	padding-top:0.5em;
+	width:12.5em;
+	background-color:#fff;
+}
+
+#blockQuoteStyle {
+	background-color:#eee;
+	padding:1em 1em 1em 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	box-shadow: 2px 2px rgba(0,0,0,0.25);
+}
+
+#reference {
+	font-style: italic;
+	text-align: right;
+}
+
+#socialIcons {
+	font-size:1.5em;
+	padding-left:2rem;
+	padding-right:2rem;
+	color: #fff;
+}
+
+#contactIcons {
+	font-size:1em;
+}
+
+.contactInfo{
+	padding-left:11.8em; 
+	padding-right:2em; 
+	color:#fff;
+}
+#footer {
+	background-color:#a91639; 
+	padding-bottom: 4em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#siteTitle {
+	display:block;
+	font-size:2em;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left:2rem;
+	padding-right:2rem;
+	line-height:125%;
+	text-decoration: none;
+	font-family:"Palatino", "Book Antiqua", "Georgia", serif;
+	color: #fff;
+}
+
+.navSeperation {
+	border-color: rgba(255, 255, 255, 0.5);
+	border-top: 1px dotted;
+	border-left: 0px dotted;
+	border-right: 0px dotted;
+	border-bottom: 0px dotted;
+}
+
+#navigationBarText{
+	font-size:1.125em;
+	text-decoration: none;
+	font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Helvetica Neue", "Arial", sans-serif;
+	padding-left:2rem;
+	padding-right:2rem;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	font-weight:bold;
+	display: block;
+	color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6,nav {
+	font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Helvetica Neue", "Arial", sans-serif;
+}
+
+h1 {
+	font-size:1.75em;
+}
+h2 {
+	font-size:1.625em;
+}
+h3 {
+	font-size:1.5em;
+}
+h4 {
+	font-size:1.375em;
+}
+h5 {
+	font-size:1.25em;
+}
+h6 {
+	font-size:1.125em;
+}
+
+table{
+	border-collapse: collapse;
+	border-width: 1px;
+}
+
+th {
+	font-weight: normal;
+	padding-top:0.5rem;
+	padding-bottom:0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-align: left;
+}
+
+th#titles {
+		font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Helvetica Neue", "Arial", sans-serif;
+		font-weight: bold;
+		background-color: #eee;
+}

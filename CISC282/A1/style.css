@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+	padding-left:200px;
+	padding-right:2em;
+}
+
+body {
+	font-family:"Palatino", "Book Antiqua", "Georgia", serif;
+	font-size:1em;
+	line-height:1.25rem;
+}
+
+h1 {
+	font-size:1.75em;
+}
+h2 {
+	font-size:1.625em;
+}
+h3 {
+	font-size:1.5em;
+}
+h4 {
+	font-size:1.375em;
+}
+h5 {
+	font-size:1.25em;
+}
+h6 {
+	font-size:1.125em;
+}

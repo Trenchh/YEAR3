@@ -1,0 +1,56 @@
+@media screen and (max-width: 444px) {
+	/* This rule is applied if the screen size is 575px or less */
+	.hero-text {
+		top:54% !important;
+	}
+
+	.hero-image {
+		min-height: 230px !important;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+    /* This rule is applied if the screen size is 768px or more. */
+    #queensLogo {
+    	display: block;
+    }
+
+    #unitSignature {
+    	width: 600px;
+    }
+
+}
+@media screen and (min-width: 992px) {
+    #siteTitle {
+    	font-size: 2.5em;
+    }
+
+    .hero-text {
+     	top: 31%;
+ 	}
+
+ 	#queensLogo {
+ 		top:-80px;
+ 	}
+
+ 	#socialLinks {
+ 		top: 62px;
+ 	}
+
+ 	h1 {
+ 		font-size: 2em;
+ 	}
+ 	h2 {
+ 		font-size: 1.75em;
+ 	}
+
+}
+@media screen and (min-width: 1200px) {
+    /* This rule is applied if the screen size is 1200px or more. */
+    .footerImage {
+    	background-image: url(../img/fas-diamonds.png);
+    	background-size: 420px 430px;
+
+    }
+}

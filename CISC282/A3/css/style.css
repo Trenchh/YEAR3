@@ -1,0 +1,265 @@
+html, body, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.hero-image {
+  background-image: url("../img/bee-collecting-pollen.jpg");
+  height: calc(33vh);
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: relative;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.hero-text div:hover {
+	background-color: rgba(255,255,255,0.75);
+	color:#000;
+	transition: 2s;
+}
+
+.hero-text div:hover #navigationBarText {
+	color:#000;
+	transition: 2s;
+}
+
+.hero-text div:hover #siteTitle {
+	color:#000;
+	transition: 2s;
+}
+
+.hero-text div:hover #socialLinks {
+	color:#000;
+	transition: 2s;
+}
+
+.hero-text div:hover #queensLogo {
+	filter: invert(100%);
+	transition: 2s;
+}
+
+.content {
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.flexboxPrograms {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-basis: auto;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.programsBoxStyle {
+	background-color: #eee;
+	width: 43%;
+	box-shadow: 1px 1px rgba(0,0,0,0.25);
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#flexboxNav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	max-height: 77px;
+	flex-wrap: nowrap;
+}
+
+#queensLogo {
+	display:none;
+	width:100px; 
+	float: right;
+	position: relative;
+	top: -75px;
+	right:10%;
+}
+
+.flexboxTotal {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-basis: auto;
+}
+
+body {
+	font-family:"Palatino", "Book Antiqua", "Georgia", serif;
+	font-size:1em;
+	line-height:125%;
+}
+
+header {
+	color:#fff;
+	background-color:#002f5e;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#wordmark {
+	padding-top:0.5em;
+	width:12.5em;
+	background-color:#fff;
+}
+
+#unitSignature {
+	padding-top:2em; 
+	width:100%;
+}
+
+#blockQuoteStyle {
+	background-color:#eee;
+	padding:1em 1em 1em 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	box-shadow: 2px 2px rgba(0,0,0,0.25);
+}
+
+#reference {
+	font-style: italic;
+	text-align: right;
+}
+
+#socialIcons {
+	font-size:1.5em;
+	color: #fff;
+}
+
+#contactIcons {
+	font-size:1em;
+}
+
+.contactInfo{
+	padding-right:10%; 
+	color:#fff;
+	max-width: 200px;
+	margin-left: 49.2%; 
+}
+
+#footer {
+	background-color:#a91639; 
+	padding-bottom: 4em;
+	padding-left: 10%;
+	padding-right: 10%;
+	width:80%;
+}
+
+.footerImage{
+	width: 100%;
+    background-image: none;
+    background-repeat: no-repeat;
+  	background-position: right;
+  	float: right;
+}
+
+#siteTitle {
+	display:block;
+	font-size:2em;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left:10%;
+	padding-right:10%;
+	line-height:125%;
+	text-decoration: none;
+	font-family:"Palatino", "Book Antiqua", "Georgia", serif;
+	color: #fff;
+}
+
+#socialLinks {
+	border-color: rgba(255, 255, 255, 0.5);
+	border-top: 1px dotted;
+	border-left: 1px dotted;
+	border-right: 0px dotted;
+	border-bottom: 0px dotted;
+	padding-top: 0.5em; 
+	padding-bottom:0.5em;
+	padding-left: 1em;
+	padding-right:10%;
+	background-color: rgba(0,0,0,0.65);
+	float:right;
+    position: relative;
+    top:4.45em;
+}
+
+.navLinks {
+	border-color: rgba(255, 255, 255, 0.5);
+	border-top: 0px dotted;
+	border-left: 0px dotted;
+	border-right: 1px dotted;
+	border-bottom: 1px dotted;
+	background-color: rgba(0,0,0,0.65);
+}
+
+#aboutPrograms {
+	padding-left:10%; 
+	width:100px;
+}
+
+#navigationBarText{
+	font-size:1.125em;
+	text-decoration: none;
+	font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Helvetica Neue", "Arial", sans-serif;
+	padding-right:10%;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	font-weight:bold;
+	display: block;
+	color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6,nav {
+	font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Helvetica Neue", "Arial", sans-serif;
+}
+
+h1 {
+	font-size:1.75em;
+}
+h2 {
+	font-size:1.625em;
+}
+h3 {
+	font-size:1.5em;
+}
+h4 {
+	font-size:1.375em;
+}
+h5 {
+	font-size:1.25em;
+}
+h6 {
+	font-size:1.125em;
+}
+
+table{
+	border-collapse: collapse;
+	border-width: 1px;
+}
+
+th {
+	font-weight: normal;
+	padding-top:0.5rem;
+	padding-bottom:0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-align: left;
+}
+
+th#titles {
+		font-family: "Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Helvetica Neue", "Arial", sans-serif;
+		font-weight: bold;
+		background-color: #eee;
+}

@@ -1,0 +1,151 @@
+Writer 1 wants to write
+Writer 1 is now writing
+Writer 2 wants to write
+Reader 1 wants to read.  Beforehand, readcount is 0
+Reader 2 wants to read.  Beforehand, readcount is 0
+This is main speaking
+Writer 3 wants to write
+Reader 3 wants to read.  Beforehand, readcount is 0
+Writer 4 wants to write
+Reader 4 wants to read.  Beforehand, readcount is 0
+Writer 5 wants to write
+Reader 5 wants to read.  Beforehand, readcount is 0
+Writer 1 is finished writing
+Writer 2 is now writing
+Writer 2 is finished writing
+Writer 3 is now writing
+Writer 3 is finished writing
+Writer 4 is now writing
+Writer 4 is finished writing
+Writer 5 is now writing
+Writer 5 is finished writing
+Reader 1 is now reading.  Readcount is 1
+Reader 2 is now reading.  Readcount is 2
+Reader 3 is now reading.  Readcount is 3
+Reader 4 is now reading.  Readcount is 4
+Reader 5 is now reading.  Readcount is 5
+Writer 1 wants to write
+Reader 3 is finished reading.  Readcount decremented to 4
+Reader 2 is finished reading.  Readcount decremented to 3
+Reader 3 wants to read.  Beforehand, readcount is 3
+Reader 5 is finished reading.  Readcount decremented to 2
+Reader 4 is finished reading.  Readcount decremented to 1
+Reader 1 is finished reading.  Readcount decremented to 0
+Writer 1 is now writing
+Reader 1 wants to read.  Beforehand, readcount is 0
+Writer 1 is finished writing
+Reader 3 is now reading.  Readcount is 1
+Reader 1 is now reading.  Readcount is 2
+Reader 1 is finished reading.  Readcount decremented to 1
+Reader 3 is finished reading.  Readcount decremented to 0
+Reader 5 wants to read.  Beforehand, readcount is 0
+Reader 5 is now reading.  Readcount is 1
+Reader 2 wants to read.  Beforehand, readcount is 1
+Reader 2 is now reading.  Readcount is 2
+Reader 2 is finished reading.  Readcount decremented to 1
+Reader 4 wants to read.  Beforehand, readcount is 1
+Reader 4 is now reading.  Readcount is 2
+Writer 3 wants to write
+Writer 2 wants to write
+Writer 5 wants to write
+Reader 5 is finished reading.  Readcount decremented to 1
+Reader 4 is finished reading.  Readcount decremented to 0
+Writer 3 is now writing
+Reader 1 wants to read.  Beforehand, readcount is 0
+Writer 3 is finished writing
+Writer 2 is now writing
+Writer 4 wants to write
+Writer 2 is finished writing
+Writer 5 is now writing
+Reader 5 wants to read.  Beforehand, readcount is 0
+Reader 4 wants to read.  Beforehand, readcount is 0
+Writer 5 is finished writing
+Writer 4 is now writing
+Writer 4 is finished writing
+Reader 1 is now reading.  Readcount is 1
+Reader 5 is now reading.  Readcount is 2
+Reader 4 is now reading.  Readcount is 3
+Reader 1 is finished reading.  Readcount decremented to 2
+Writer 5 wants to write
+Reader 5 is finished reading.  Readcount decremented to 1
+Reader 4 is finished reading.  Readcount decremented to 0
+Writer 5 is now writing
+Reader 1 wants to read.  Beforehand, readcount is 0
+Writer 1 wants to write
+Writer 3 wants to write
+Writer 5 is finished writing
+Writer 1 is now writing
+Writer 2 wants to write
+Reader 3 wants to read.  Beforehand, readcount is 0
+Writer 1 is finished writing
+Writer 3 is now writing
+Reader 2 wants to read.  Beforehand, readcount is 0
+Writer 3 is finished writing
+Writer 2 is now writing
+Writer 2 is finished writing
+Reader 1 is now reading.  Readcount is 1
+Reader 3 is now reading.  Readcount is 2
+Reader 2 is now reading.  Readcount is 3
+Reader 2 is finished reading.  Readcount decremented to 2
+Reader 3 is finished reading.  Readcount decremented to 1
+Writer 5 wants to write
+Writer 3 wants to write
+Reader 1 is finished reading.  Readcount decremented to 0
+Writer 5 is now writing
+Reader 5 wants to read.  Beforehand, readcount is 0
+Writer 1 wants to write
+Writer 4 wants to write
+Writer 5 is finished writing
+Writer 3 is now writing
+Reader 4 wants to read.  Beforehand, readcount is 0
+Writer 3 is finished writing
+Writer 1 is now writing
+Reader 1 wants to read.  Beforehand, readcount is 0
+Reader 3 wants to read.  Beforehand, readcount is 0
+Writer 1 is finished writing
+Writer 4 is now writing
+Writer 3 wants to write
+Writer 4 is finished writing
+Writer 3 is now writing
+Writer 2 wants to write
+Reader 2 wants to read.  Beforehand, readcount is 0
+Writer 3 is finished writing
+Writer 2 is now writing
+Writer 4 wants to write
+Writer 2 is finished writing
+Writer 4 is now writing
+Writer 4 is finished writing
+Reader 5 is now reading.  Readcount is 1
+Reader 4 is now reading.  Readcount is 2
+Reader 1 is now reading.  Readcount is 3
+Reader 3 is now reading.  Readcount is 4
+Reader 2 is now reading.  Readcount is 5
+Reader 1 is finished reading.  Readcount decremented to 4
+Reader 3 is finished reading.  Readcount decremented to 3
+Reader 3 wants to read.  Beforehand, readcount is 3
+Reader 3 is now reading.  Readcount is 4
+Reader 5 is finished reading.  Readcount decremented to 3
+Reader 2 is finished reading.  Readcount decremented to 2
+Reader 3 is finished reading.  Readcount decremented to 1
+Reader 4 is finished reading.  Readcount decremented to 0
+Writer 5 wants to write
+Writer 5 is now writing
+Reader 4 wants to read.  Beforehand, readcount is 0
+Writer 5 is finished writing
+Reader 4 is now reading.  Readcount is 1
+Reader 4 is finished reading.  Readcount decremented to 0
+Writer 1 wants to write
+Writer 1 is now writing
+Writer 1 is finished writing
+Writer 2 wants to write
+Writer 2 is now writing
+Writer 2 is finished writing
+Reader 2 wants to read.  Beforehand, readcount is 0
+Reader 2 is now reading.  Readcount is 1
+Writer 4 wants to write
+Reader 2 is finished reading.  Readcount decremented to 0
+Writer 4 is now writing
+Reader 5 wants to read.  Beforehand, readcount is 0
+Writer 4 is finished writing
+Reader 5 is now reading.  Readcount is 1
+Reader 5 is finished reading.  Readcount decremented to 0
